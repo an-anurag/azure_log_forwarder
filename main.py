@@ -2,7 +2,8 @@ from azure_log_forwarder import AzureLogForwarder
 
 
 def main():
-    pass
+    az = AzureLogForwarder()
+    az.forward()
 
 
 if __name__ == '__main__':

@@ -9,7 +9,7 @@ INSERT ignore INTO plugin(id,type,name,description,vendor,product_type) values(8
 INSERT IGNORE INTO plugin_sid (plugin_id, sid, category_id, subcategory_id, class_id, priority, reliability, name) VALUES
                 
 (8902,1,1,1,NULL,2,2, 'Azure: Role assignments has been created by Admin'),
-(8902,1,2,1,NULL,2,2, 'Azure: Deallocate virtual machine'),
+(8902,1,2,1,NULL,2,2, 'Azure: Virtual machine deleted by user'),
+(8902,1,3,1,NULL,2,2, 'Azure: Virtual machine deallocated by user'),
 
-
-(8902,20000,1,1,NULL,2,2, 'Azure: IAM user generic activity event');
+(8902,20000,1,1,NULL,2,2, 'Azure: Generic administrative event');

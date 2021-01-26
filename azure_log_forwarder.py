@@ -52,7 +52,3 @@ class AzureLogForwarder:
                         event = 'Azure - ' + now + " " + jstr + '\n'
                         print(event)
                         log_file.write(event)
-
-
-az = AzureLogForwarder()
-az.forward()
