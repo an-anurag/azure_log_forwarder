@@ -1,7 +1,7 @@
 #!/bin/bash
 
-
-AZURE_SUBSCRIPTION_ID="7d4d6df2-0465-44d1-8742-5c816fd0582b"
-AZURE_TENANT_ID="c53b2ad8-3a9a-4d3a-a7a1-b9215077f2cb"
-AZURE_CLIENT_ID="7b78acbe-451e-4127-9563-b055547a64eb"
-AZURE_CLIENT_SECRET="5e357fb3-7d96-44bf-83c2-2e3ea2cfbc57"
+# my machine
+AZURE_SUBSCRIPTION_ID="azure_subscription_id"
+AZURE_TENANT_ID="azure_tenant_id"
+AZURE_CLIENT_ID="azure_client_id"
+AZURE_CLIENT_SECRET="azure_client_secret"
